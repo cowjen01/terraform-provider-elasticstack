@@ -17,14 +17,14 @@ builds:
   ldflags:
     - '-s -w -X main.version={{.Version}} -X main.commit={{.Commit}}'
   goos:
-    - freebsd
-    - windows
+    # - freebsd
+    # - windows
     - linux
-    - darwin
+    # - darwin
   goarch:
-    - '386'
-    - arm
-    - arm64
+    # - '386'
+    # - arm
+    # - arm64
     - amd64
   ignore:
     - goos: darwin
