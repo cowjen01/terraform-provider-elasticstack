@@ -20,11 +20,11 @@ builds:
     # - freebsd
     # - windows
     - linux
-    - darwin
+    # - darwin
   goarch:
     # - '386'
     # - arm
-    - arm64
+    # - arm64
     - amd64
   ignore:
     - goos: darwin

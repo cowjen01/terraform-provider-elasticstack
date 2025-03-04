@@ -48,7 +48,6 @@ func ResourceTemplate() *schema.Resource {
 					"hidden": {
 						Description: "If true, the data stream is hidden. Defaults to `false`. Available only in **8.x**",
 						Type:        schema.TypeBool,
-						Default:     false,
 						Optional:    true,
 					},
 					"allow_custom_routing": {
